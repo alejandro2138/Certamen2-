@@ -122,7 +122,6 @@ form.addEventListener("submit", (e) => {
   reiniciarFormulario();
 });
 
-// Delegación para botones editar y eliminar en la tabla
 tableBody.addEventListener("click", (e) => {
   const target = e.target;
   if (target.classList.contains("delete-btn")) {
